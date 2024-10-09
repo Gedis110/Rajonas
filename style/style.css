@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
@@ -73,7 +73,31 @@
     font-size: 18px;
     color: #fff;
   }
-  
+  /* mico hospital */
+  .hospital-container{
+    background-color: white;
+    height: 500px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .hospital-m{
+    color: #00bfa5;
+  }
+  .hospital-p{
+    color:gray;
+  }
+  .hospital-img{
+     float: right;
+  }
+  .hospital-img img{
+    height: 500px;
+  }
+  .contact-us-button button{
+    width: 201px;
+height: 53px;
+border-radius: 4px;
+background-color: #252525;
+  }
   /* forma uzsirasimas i vizita */
   .appointment-container {
     max-width: 900px;
@@ -101,9 +125,6 @@
 
   .paskirtis {
     color: #00bfa5;
-  }
-  .appointment-container{
-    gap: 50px
   }
 
   .appointment-form {

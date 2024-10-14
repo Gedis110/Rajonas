@@ -1,161 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <div class="circle-triangle"></div>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mico Website</title>
-      <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-      <!-- kontaktine informacija -->
-      <div class="top-bar">
-        <span>📞 Call: +01 1234567890</span>
-        <span>✉️ Email: demo@gmail.com</span>
-        <span>📍 Location</span>
+  <head>
+    <div class="circle-triangle"></div>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mico Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- kontaktine informacija -->
+    <div class="top-bar">
+      <span>📞 Call: +01 1234567890</span>
+      <span>✉️ Email: demo@gmail.com</span>
+      <span>📍 Location</span>
+    </div>
+
+    <!-- navigacija -->
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <img src="logo.png" alt="Logo" />
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">TREATMENT</a></li>
+        <li><a href="#">DOCTORS</a></li>
+        <li><a href="#">TESTIMONIAL</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul>
+
+      <div class="auth">
+        <a href="#">LOGIN</a>
+        <a href="#">SIGN UP</a>
+        <span>🔍</span>
       </div>
+    </nav>
+    <!--Mico Hospital-->
+    <div class="hospital-container"> 
+       <div class="hospital-img">
+  <img  src="photos/image.webp" alt="hospital photo">
+</div>
+<div>
+   <h1>MICO</h1>
+   <h1 class="hospital-m">HOSPITAL</h1>
+   <p class="hospital-p">when looking at its layout. The point of using Lorem ipsum is that it has a <br>
+  more-or-less normal distrinution of letters as opposed to</p>
+  <div class="contact-us-button">
+      <button type="submit">CONTACT US</button>
+  </div>
+</div>
+</div>
   
-      <!-- navigacija -->
-      <nav class="navbar">
-        <a href="#" class="logo">
-          <img src="logo.png" alt="Logo" />
-        </a>
-  
-        <ul class="nav-links">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">TREATMENT</a></li>
-          <li><a href="#">DOCTORS</a></li>
-          <li><a href="#">TESTIMONIAL</a></li>
-          <li><a href="#">CONTACT US</a></li>
-        </ul>
-  
-        <div class="auth">
-          <a href="#">LOGIN</a>
-          <a href="#">SIGN UP</a>
-          <span>🔍</span>
+    <!-- 1 forma vizitas pas gyditoja -->
+    <div class="appointment-container">
+      <span class="knyga">BOOK</span> <span class="paskirtis">APPOINTMENT</span>
+
+      <form class="appointment-form">
+        <div class="form-group">
+          <label for="patient-name">Patient Name</label>
+          <input
+            type="text"
+            id="patient-name"
+            name="patient-name"
+            required
+          />
         </div>
-      </nav>
-  
-      <!-- 1 forma vizitas pas gyditoja -->
-      <div class="appointment-container">
-        <span class="knyga">BOOK</span> <span class="paskirtis">APPOINTMENT</span>
-  
-        <form class="appointment-form">
-          <div class="form-group">
-            <label for="patient-name">Patient Name</label>
-            <input
-              type="text"
-              id="patient-name"
-              name="patient-name"
-              required
-            />
-          </div>
-  
-          <div class="form-group">
-            <label for="doctor-name">Doctor's Name</label>
-            <select id="doctor-name" name="doctor-name" required>
-              <option value="">Select Doctor</option>
-              <option value="dr-1">Dr. Smith</option>
-              <option value="dr-2">Dr. Johnson</option>
-            </select>
-          </div>
-  
-          <div class="form-group">
-            <label for="department-name">Department's Name</label>
-            <select id="department-name" name="department-name" required>
-              <option value="">Select Department</option>
-              <option value="cardiology">Cardiology</option>
-              <option value="neurology">Neurology</option>
-            </select>
-          </div>
-  
-          <div class="form-group">
-            <label for="phone-number">Phone Number</label>
-            <input
-              type="number"
-              id="phone-number"
-              name="phone-number"
-              placeholder="XXXXXXXX"
-              required
-            />
-          </div>
-  
-          <div class="form-group">
-            <label for="symptoms">Symptoms</label>
-            <input
-              type="text"
-              id="symptoms"
-              name="symptoms"
-              required
-            />
-          </div>
-  
-          <div class="form-group">
-            <label for="date">Choose Date</label>
-            <input type="date" id="date" name="date" required />
-          </div>
-  
-          <div class="form-group submit-btn">
-            <button type="submit">SUBMIT NOW</button>
-          </div>
-        </form>
-      </div>
-      <!-- 2 forma-->
-      <div class="contact-container">
-        <h2>Get in Touch</h2>
-        <form class="contact-form">
-          <div class="form-group">
-            <input
-              type="text"
-              id="fullname"
-              name="fullname"
-              placeholder="Fullname"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Email"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              placeholder="Phone"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Message"
-              required
-            ></textarea>
-          </div>
-          <div class="form-group submit-btn">
-            <button type="submit">Send</button>
-          </div>
-        </form>
-      </div>
-    </body>
-  </html>
-  
-</body>
+
+        <div class="form-group">
+          <label for="doctor-name">Doctor's Name</label>
+          <select id="doctor-name" name="doctor-name" required>
+            <option value="">Select Doctor</option>
+            <option value="dr-1">Dr. Smith</option>
+            <option value="dr-2">Dr. Johnson</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="department-name">Department's Name</label>
+          <select id="department-name" name="department-name" required>
+            <option value="">Select Department</option>
+            <option value="cardiology">Cardiology</option>
+            <option value="neurology">Neurology</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="phone-number">Phone Number</label>
+          <input
+            type="number"
+            id="phone-number"
+            name="phone-number"
+            placeholder="XXXXXXXX"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="symptoms">Symptoms</label>
+          <input
+            type="text"
+            id="symptoms"
+            name="symptoms"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="date">Choose Date</label>
+          <input type="date" id="date" name="date" required />
+        </div>
+
+        <div class="form-group submit-btn">
+          <button type="submit">SUBMIT NOW</button>
+        </div>
+      </form>
+    </div>
+    <!-- 2 forma-->
+    <div class="contact-container">
+      <h2>Get in Touch</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Fullname"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Phone"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
+        <div class="form-group submit-btn">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

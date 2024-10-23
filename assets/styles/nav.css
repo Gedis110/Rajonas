@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* kontaktine informacija */
+  .top-bar {
+    background-color: white;
+    text-align: left;
+    padding: 10px 200px;
+  }
+  
+  .top-bar span {
+    margin-left: 15px;
+  }
+  
+.navbar {
+    background-color: #4fb89e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 20px;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  /* linkai */
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  /* Login ir Auth */
+  .auth {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .auth a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .auth span {
+    font-size: 18px;
+    color: #fff;
+  }

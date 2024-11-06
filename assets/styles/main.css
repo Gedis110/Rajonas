@@ -2,29 +2,72 @@
 @import url(footer.css);
 /* mico hospital */
 .hospital-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: white;
-  height: 500px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  padding: 20px;
+  padding-top: 50px;
+  padding-left: 250px;
+  padding-right: 100px;
 }
+ 
+.hospital-content {
+  max-width: 50%;
+}
+ 
 .hospital-m {
   color: #00bfa5;
 }
+ 
 .hospital-p {
   color: gray;
+  margin: 20px 0;
 }
+ 
 .hospital-img {
-  float: right;
+  flex-shrink: 0;
 }
+ 
 .hospital-img img {
-  height: 500px;
+  height: 400px;
+  width: auto;
+  object-fit: contain;
 }
+ 
 .contact-us-button button {
   width: 201px;
   height: 53px;
   border-radius: 4px;
   background-color: #252525;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
+ 
+.contact-us-button button:hover {
+  background-color: #333;
+}
+.circle-with-triangle {
+  width: 50px;
+  height: 50px;
+  background-color: #00bfa5;
+  border-radius: 50%;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-with-triangle::after {
+  content: '';
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid white;
+  position: absolute;
+}
+
 /* forma uzsirasimas i vizita */
 .appointment-container {
   max-width: 900px;

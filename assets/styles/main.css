@@ -1,29 +1,29 @@
 @import url(nav.css);
 @import url(footer.css);
 /* mico hospital */
-.hospital-container{
+.hospital-container {
   background-color: white;
   height: 500px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.hospital-m{
+.hospital-m {
   color: #00bfa5;
 }
-.hospital-p{
-  color:gray;
+.hospital-p {
+  color: gray;
 }
-.hospital-img{
-   float: right;
+.hospital-img {
+  float: right;
 }
-.hospital-img img{
+.hospital-img img {
   height: 500px;
 }
-.contact-us-button button{
+.contact-us-button button {
   width: 201px;
-height: 53px;
-border-radius: 4px;
-background-color: #252525;
+  height: 53px;
+  border-radius: 4px;
+  background-color: #252525;
 }
 /* forma uzsirasimas i vizita */
 .appointment-container {
@@ -40,8 +40,8 @@ h2 {
   margin-bottom: 15px;
 }
 
-.knyga{
-  text-decoration:underline #00bfa5;
+.knyga {
+  text-decoration: underline #00bfa5;
   text-underline-offset: 5px;
 }
 
@@ -85,11 +85,11 @@ input::placeholder {
 }
 
 #phone-number::placeholder {
-  color:#00bfa5;
+  color: #00bfa5;
 }
 
-#date{
-  color:#00bfa5;
+#date {
+  color: #00bfa5;
 }
 .submit-btn {
   text-align: center;
@@ -173,4 +173,3 @@ button {
 button:hover {
   background-color: #333;
 }
-

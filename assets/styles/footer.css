@@ -10,11 +10,6 @@ footer {
   flex-wrap: wrap;
 }
 
-.footer-section {
-  flex: 1;
-  padding: 0 20px;
-}
-
 .footer-logo {
   width: 100px;
   margin-bottom: 20px;

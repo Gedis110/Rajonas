@@ -3,7 +3,6 @@
 h1 {
   margin-top: 15px;
   text-align: center;
-  font-weight: bold;
 }
 
 .black {
@@ -44,10 +43,8 @@ p {
 a {
   display: inline-block;
   margin-top: 10px;
-  padding: 8px 15px;
   color: #4fb89e;
   text-decoration: none;
-  font-weight: bold;
 }
 
 .people {

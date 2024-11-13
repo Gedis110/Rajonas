@@ -40,7 +40,7 @@ p {
   color: #666;
 }
 
-a {
+.read_more {
   display: inline-block;
   margin-top: 10px;
   color: #4fb89e;

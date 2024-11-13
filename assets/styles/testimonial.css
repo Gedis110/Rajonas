@@ -3,16 +3,18 @@
 .text {
     background-color:white;
     width: 880px;
-
+ 
+}
+.container{
+    padding: 155px 13px;
+    max-width: 950px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 .title {
 color: #00bfa5;
-}
-
-.default {
-color: rgb(136, 146, 143);  
-}
-
-.morijorch {
-    color: #00bfa5;
+padding: 50px  0px 0px 250px;
 }

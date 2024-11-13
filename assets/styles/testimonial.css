@@ -6,7 +6,6 @@
  
 }
 .container{
-    padding: 155px 13px;
     max-width: 950px;
     margin: 50px auto;
     background-color: #fff;
@@ -17,4 +16,13 @@
 .title {
 color: #00bfa5;
 padding: 50px  0px 0px 250px;
+}
+ 
+.default {
+color: rgb(136, 146, 143);  
+}
+ 
+.morijorch {
+    color: #00bfa5;
+    font-weight: bold;
 }

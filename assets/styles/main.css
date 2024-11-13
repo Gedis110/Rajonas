@@ -12,30 +12,30 @@
   padding-left: 250px;
   padding-right: 100px;
 }
- 
+
 .hospital-content {
   max-width: 50%;
 }
- 
+
 .hospital-m {
   color: #00bfa5;
 }
- 
+
 .hospital-p {
   color: gray;
   margin: 20px 0;
 }
- 
+
 .hospital-img {
   flex-shrink: 0;
 }
- 
+
 .hospital-img img {
   height: 400px;
   width: auto;
   object-fit: contain;
 }
- 
+
 .contact-us-button button {
   width: 201px;
   height: 53px;
@@ -45,7 +45,7 @@
   border: none;
   cursor: pointer;
 }
- 
+
 .contact-us-button button:hover {
   background-color: #333;
 }
@@ -61,7 +61,7 @@
 }
 
 .circle-with-triangle::after {
-  content: '';
+  content: "";
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-left: 15px solid white;
